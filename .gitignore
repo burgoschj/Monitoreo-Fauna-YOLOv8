@@ -1,0 +1,36 @@
+# Modelos entrenados y pesos
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Datos e imágenes
+data/
+datasets/
+01_datos_yolo/
+00_datos_originales/
+*.zip
+*.tar
+*.tar.gz
+
+# Resultados y registros de entrenamiento
+runs/
+02_modelos/
+03_resultados/
+05_registros/
+
+# Google Colab y Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local con datos privados
+.env
